@@ -1,0 +1,12 @@
+<?php
+// Local developer overrides; copy to config.local.php and adjust.
+// This file is safe to commit. config.local.php is gitignored.
+
+// Base URL override (optional)
+// define('base_url', 'http://localhost/phase1/');
+
+// Database overrides (optional)
+// define('DB_HOST', '127.0.0.1');
+// define('DB_USER', 'root');
+// define('DB_PASS', '');
+// define('DB_NAME', 'lfis_db');
