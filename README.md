@@ -13,13 +13,17 @@ A comprehensive web-based Lost and Found Information System designed to streamli
 The Lost and Found Information System is built with a modular architecture comprising two main components:
 
 ### 🔐 Management Portal
+
 A secure administrative interface accessible only to authorized personnel with role-based permissions:
+
 - **System Administrators:** Full access to all features and system configuration
 - **Staff Members:** Limited access with specific operational permissions
 - **Dynamic Content Management:** Real-time updates to public-facing content
 
 ### 🌐 Public Portal
+
 An intuitive public interface for community interaction:
+
 - Browse published unclaimed items with advanced filtering
 - Submit found items for administrative review
 - Send inquiries and feedback through integrated contact forms
@@ -28,23 +32,28 @@ An intuitive public interface for community interaction:
 ## ✨ Core Features
 
 ### 📊 Administrative Dashboard
+
 - **Secure Authentication System**
+
   - User login/logout with session management
   - Role-based access control
   - Account security features
 
 - **Comprehensive Dashboard**
+
   - Real-time statistics and analytics
   - System overview with key metrics
   - Interactive data visualizations
 
 - **Category Management**
+
   - Create and organize item categories
   - Hierarchical category structure
   - Bulk category operations
   - Category-based reporting
 
 - **Item Management**
+
   - Complete item lifecycle management
   - Image upload and gallery management
   - Item status tracking (Found/Claimed/Archived)
@@ -52,12 +61,14 @@ An intuitive public interface for community interaction:
   - Bulk item operations
 
 - **User Administration**
+
   - User account management
   - Role assignment and permissions
   - User activity monitoring
   - Account verification system
 
 - **Communication Hub**
+
   - Inbox for public inquiries
   - Message categorization and response tracking
   - Automated notification system
@@ -70,13 +81,16 @@ An intuitive public interface for community interaction:
   - Multi-language support preparation
 
 ### 🌍 Public Interface
+
 - **Item Discovery**
+
   - Browse all published lost and found items
   - Advanced filtering by category, date, location
   - Search functionality with keyword matching
   - Item detail pages with high-resolution images
 
 - **Community Engagement**
+
   - Submit found items with detailed descriptions
   - Upload multiple images per item
   - Contact form for inquiries
@@ -91,11 +105,13 @@ An intuitive public interface for community interaction:
 ## 🛠️ Technical Specifications
 
 ### **Backend Technologies**
+
 - **PHP 7.4+** - Server-side scripting
 - **MySQL 5.7+** - Database management
 - **PDO/MySQLi** - Database abstraction layer
 
 ### **Frontend Technologies**
+
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling with Bootstrap framework
 - **JavaScript (ES6+)** - Interactive functionality
@@ -103,6 +119,7 @@ An intuitive public interface for community interaction:
 - **Bootstrap 5** - Responsive design framework
 
 ### **Additional Features**
+
 - **Security:** Input validation, SQL injection prevention, XSS protection
 - **Performance:** Optimized queries, image compression, caching strategies
 - **Accessibility:** WCAG 2.1 compliant design
@@ -111,6 +128,7 @@ An intuitive public interface for community interaction:
 ## 🚀 Installation Guide
 
 ### **Prerequisites**
+
 - Local web server (XAMPP, WAMP, LAMP, or MAMP)
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
@@ -119,18 +137,21 @@ An intuitive public interface for community interaction:
 ### **Step-by-Step Installation**
 
 1. **Setup Web Server**
+
    ```bash
    # Download and install XAMPP from https://www.apachefriends.org/
    # Start Apache and MySQL services
    ```
 
 2. **Clone or Download Project**
+
    ```bash
    git clone https://github.com/niyati34/Lost_and_found.git
    # Or download ZIP file and extract
    ```
 
 3. **Configure Project Location**
+
    ```bash
    # Copy project folder to your web server's document root
    # For XAMPP: C:\xampp\htdocs\lost-and-found\
@@ -138,6 +159,7 @@ An intuitive public interface for community interaction:
    ```
 
 4. **Database Setup**
+
    ```sql
    -- Open PHPMyAdmin (http://localhost/phpmyadmin)
    -- Create new database: lfis_db
@@ -145,6 +167,7 @@ An intuitive public interface for community interaction:
    ```
 
 5. **Configuration**
+
    ```php
    // Copy config.local.php.sample to config.local.php
    // Update database credentials if different from defaults:
@@ -161,10 +184,12 @@ An intuitive public interface for community interaction:
    ```
 
 ### **Default Admin Credentials**
+
 ```
 Username: admin
 Password: admin123
 ```
+
 ⚠️ **Important:** Change default credentials immediately after first login.
 
 ## 📁 Project Structure
@@ -200,6 +225,7 @@ lost-and-found/
 ## 🔧 Configuration Options
 
 ### **Environment Configuration**
+
 Create `config.local.php` for environment-specific settings:
 
 ```php
@@ -221,8 +247,8 @@ define('ALLOWED_EXTENSIONS', ['jpg', 'jpeg', 'png', 'gif']);
 
 ## 📱 Browser Compatibility
 
-| Browser | Version | Status |
-|---------|---------|--------|
+| Browser | Version | Status             |
+| ------- | ------- | ------------------ |
 | Chrome  | 70+     | ✅ Fully Supported |
 | Firefox | 65+     | ✅ Fully Supported |
 | Safari  | 12+     | ✅ Fully Supported |
@@ -246,6 +272,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Developer
 
 **Niyati**
+
 - GitHub: [@niyati34](https://github.com/niyati34)
 
 ## 🐛 Bug Reports & Feature Requests
@@ -254,4 +281,4 @@ If you encounter any bugs or have feature requests, please create an issue on th
 
 ---
 
-*Built with ❤️ by Niyati*
+_Built with ❤️ by Niyati_
